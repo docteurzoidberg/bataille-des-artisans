@@ -1,29 +1,21 @@
 <template>
-  <v-navigation-drawer
-    absolute
-    permanent
-    right
-    app
-    dark
-  >
-    <v-list dense>
-      <v-list-item
-        v-for="item in items"
-        :key="item.title"
-        @click=""
-        :to="item.to"
-      >
-        <v-list-item-icon>
-          <v-icon>{{ item.icon }}</v-icon>
-        </v-list-item-icon>
-        <v-list-item-content>
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
-      <v-divider />
-    </v-list>
-  </v-navigation-drawer>
-  </v-card>
+  <span>
+    <v-btn
+      v-for="item in items"
+      :key="item.title"
+      :to="item.to"
+      depressed
+      large
+      icons-and-text
+      tile
+      color="secondary"
+    >
+      <v-icon left dark>
+        {{ item.icon }}
+      </v-icon>
+      {{ item.title }}
+    </v-btn>
+  </span>
 </template>
 
 <script>
@@ -37,8 +29,13 @@ export default {
           to: '/'
         },
         {
+          icon: 'mdi-gift',
+          title: 'Unboxing',
+          to: '/unboxing'
+        },
+        {
           icon: 'mdi-book',
-          title: 'Documentations',
+          title: 'Documentation',
           to: '/doc'
         },
         {
@@ -54,6 +51,5 @@ export default {
 </script>
 
 <style lang="sass">
-.v-list .v-list-item--active
-  color: $mytheme-color-teal
+
 </style>

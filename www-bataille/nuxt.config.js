@@ -4,14 +4,14 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    title: 'Bataille Des Artisans',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Jockey+One&display=swap' },
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       { rel: 'icon', type: 'image/png', sizes: '64x64', href: '/favicon2-64.png' },
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon2-32.png' },
@@ -81,6 +81,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    extractCSS: true,
     extend (config, ctx) {
     }
   }

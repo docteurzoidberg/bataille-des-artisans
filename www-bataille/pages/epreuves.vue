@@ -14,7 +14,7 @@
               <v-icon icon="mdi-trophy" /> Epreuves
             </h1>
           </v-card-title>
-          <v-card-text>
+          <v-card-text class="headline">
             A venir !
           </v-card-text>
         </v-card>

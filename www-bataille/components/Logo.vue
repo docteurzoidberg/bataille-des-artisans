@@ -74,7 +74,5 @@
     opacity: 1
   40%
     opacity: .9
-  41%
-    opacity: .1
 
 </style>

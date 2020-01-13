@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-card elevation="15">
+    <v-card class="zoom" elevation="15">
       <v-card-title>
-        <h1 class="mt-3 accent--text">
+        <h1 class="zoom mt-3 accent--text">
           Bienvenue dans la bataille !
         </h1>
       </v-card-title>
@@ -23,13 +23,3 @@
     </v-card>
   </div>
 </template>
-
-<style lang="sass">
-.logo-container
-  margin-bottom: 10px
-h1
-  display: block
-  padding-bottom: 10px
-  width: 100%
-  border-bottom: 2px solid $mytheme-color-teal
-</style>

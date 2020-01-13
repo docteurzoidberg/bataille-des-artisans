@@ -6,7 +6,7 @@
           Bataille des artisans v1: Le zillo-mini-devkit !
         </h1>
       </v-card-title>
-      <v-card-text class="text-left">
+      <v-card-text class="headline">
         <p>Salut les bagarreurs!</p>
 
         <p>Vous avez recu votre colis ? Vous vous demandez ce que c'est ? Si ça va exploser ? Nous tenterons ici de répondre à (presque) toutes vos questions!</p>
@@ -201,6 +201,35 @@
             </v-img>
             <v-card-text class="text--primary">
               PCB custom
+            </v-card-text>
+          </v-card>
+        </p>
+
+        <h3 id="uncircuitimprimpcbpermettantdeconnecterletout">
+          Dans un boitier et son diffuseur lumineux imprimés en 3D
+        </h3>
+
+        <p>
+          <v-card outlined>
+            <v-img
+              height="450"
+              src="https://i.imgur.com/p7HiKHi.png"
+              alt="pcb"
+              contain
+              aspect-ratio
+             >
+              <template v-slot:placeholder>
+                <v-row
+                  class="fill-height ma-0"
+                  align="center"
+                  justify="center"
+                >
+                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                </v-row>
+              </template>
+            </v-img>
+            <v-card-text class="text--primary">
+              Boitier 3D sous OpenScad
             </v-card-text>
           </v-card>
         </p>

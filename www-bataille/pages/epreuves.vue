@@ -8,9 +8,11 @@
       md12
     >
       <div>
-        <v-card>
+        <v-card elevation="15">
           <v-card-title>
-            <h1 class="accent--text"><v-icon icon="mdi-trophy" /> Epreuves</h1>
+            <h1 class="mt-3 accent--text">
+              <v-icon icon="mdi-trophy" /> Epreuves
+            </h1>
           </v-card-title>
           <v-card-text>
             A venir !

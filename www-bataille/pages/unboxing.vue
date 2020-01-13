@@ -10,7 +10,7 @@
         <v-card-text class="text-left">
           <p>Salut les bagarreurs!</p>
 
-          <p>Vous avez recu votre colis ? Vous vous demandez ce que c'est ? Si ca va exploser ? Nous tenterons ici de repondre a (presque) toutes vos questions!</p>
+          <p>Vous avez recu votre colis ? Vous vous demandez ce que c'est ? Si ça va exploser ? Nous tenterons ici de répondre à (presque) toutes vos questions!</p>
 
           <h2 id="contenuducolis">
             Contenu du colis
@@ -53,14 +53,13 @@
           </p>
           <p>
             L'ESP32 est un module 'tout en un' comprenant de nombreuses fonctionnalités.
-            C'est un microcontroleur 32bit multi-coeur cadencé a xx MHz.
-            Il dispose nativement de fonctionnalités WIFI, de ports série, d'un systême de fichiers minimaliste et d'une mémoire flash de 4 Mo, permettant de stocker programme et assets.
+            Il dispose nativement de fonctionnalités WIFI, de ports série, d'un système de fichiers minimaliste et d'une mémoire flash de 4 Mo, permettant de stocker programme et assets.
             (liste de fonctionnalités non exhaustive)
           </p>
 
           <p>Il est programmable via son port USB avec un framework Arduino.</p>
 
-          <p>Plus d'explications sur l'ESP32 avec des documents, à venir !</p>
+          <p>Plus d'explications sur l'ESP32 <a href="https://fr.wikipedia.org/wiki/ESP32">ici</a> :</p>
 
           <h3 id="matricedeledsws2812b">
             Matrice de leds WS2812b

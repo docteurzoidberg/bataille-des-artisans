@@ -63,12 +63,6 @@
   100%
     -webkit-transform: translateY(0%) scaleY(1) scaleX(1)
 
-@keyframes loading-logo
-  0%
-    transform: scale(0)
-  100%
-    transform: scale(1)
-
 @keyframes loading-fond
   20%
     opacity: .9
@@ -80,4 +74,7 @@
     opacity: 1
   40%
     opacity: .9
+  41%
+    opacity: .1
+
 </style>

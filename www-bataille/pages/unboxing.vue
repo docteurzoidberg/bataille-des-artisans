@@ -53,13 +53,13 @@
           </p>
           <p>
             L'ESP32 est un module 'tout en un' comprenant de nombreuses fonctionnalités.
-            Il dispose nativement de fonctionnalités WIFI, de ports série, d'un système de fichiers minimaliste et d'une mémoire flash de 4 Mo, permettant de stocker programme et assets.
+            Il a plusieurs coeurs, dispose nativement de fonctionnalités WIFI, de ports série, d'un système de fichiers minimaliste et d'une mémoire flash de 4 Mo, permettant de stocker programme et assets.
             (liste de fonctionnalités non exhaustive)
           </p>
 
           <p>Il est programmable via son port USB avec un framework Arduino.</p>
 
-          <p>Plus d'explications sur l'ESP32 <a href="https://fr.wikipedia.org/wiki/ESP32">ici</a> :</p>
+          <p>Plus d'explications techniques sur l'ESP32 ici: <a href="https://fr.wikipedia.org/wiki/ESP32" target="_blank">https://fr.wikipedia.org/wiki/ESP32</a></p>
 
           <h3 id="matricedeledsws2812b">
             Matrice de leds WS2812b
@@ -84,9 +84,7 @@
 
           <p>Des librairies permettront le pilotage de ces leds sans se préocupper de leur protocole de communication.</p>
 
-          <p>Plus d'infos sur les leds WS2812b communément appelées "NEOPIXELS", et leur matrices  sur internet par ici :</p>
-
-          <p>(liens vers la doc adafruit a venir)</p>
+          <p>Plus d'infos sur les leds WS2812b communément appelées "NEOPIXELS", et leur matrices  sur internet par ici : <a href="https://learn.adafruit.com/adafruit-neopixel-uberguide/" target="blank">https://learn.adafruit.com/adafruit-neopixel-uberguide/</a></p>
 
           <h3 id="mpu6050">
             MPU6050

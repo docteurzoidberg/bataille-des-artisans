@@ -16,7 +16,7 @@
             <p>blabla lorem ipsum papatum</p>
             <p>
               Si vous avez des questions. posez les sur le channel <a
-                href="https://factorio.tppt.eu/"
+                href="discord://factorio.tppt.eu"
                 target="_blank"
                 title="discord"
               >

@@ -6,7 +6,7 @@
           Bataille des artisans v1: Le zillo-mini-devkit !
         </h1>
       </v-card-title>
-      <v-card-text class="headline">
+      <v-card-text class="body-1">
         <p>Salut les bagarreurs!</p>
 
         <p>Vous avez recu votre colis ? Vous vous demandez ce que c'est ? Si ça va exploser ? Nous tenterons ici de répondre à (presque) toutes vos questions!</p>

@@ -6,7 +6,7 @@
           Bienvenue dans la bataille !
         </h1>
       </v-card-title>
-      <v-card-text>
+      <v-card-text class="body-1">
         <h2 class="mt-3">
           EPISODE 1: Le zillo-mini-devkit
         </h2>

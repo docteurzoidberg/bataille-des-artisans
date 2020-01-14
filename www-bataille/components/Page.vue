@@ -6,7 +6,7 @@
           <v-icon v-if="icon" large class="pb-2 accent--text">{{icon}}</v-icon> {{title}}
         </h1>
       </v-card-title>
-      <v-card-text class="headline">
+      <v-card-text class="body-1">
         <slot></slot>
       </v-card-text>
     </v-card>

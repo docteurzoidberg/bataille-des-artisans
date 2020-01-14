@@ -1,10 +1,8 @@
 <template>
   <Page title="Documentation" icon="mdi-book">
-    <p>
-      <h3>
-        <nuxt-link to="/doc/setup">Setup</nuxt-link>
-      </h3>
-    </p>
+    <h2>
+      <nuxt-link to="/doc/setup">Setup</nuxt-link>
+    </h2>
   </Page>
 </template>
 

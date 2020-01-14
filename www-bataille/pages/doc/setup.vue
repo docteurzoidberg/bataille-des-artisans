@@ -1,6 +1,6 @@
 <template>
   <Page title="Setup son environnement de developpement" icon="mdi-tools">
-    <p>A venir !</p>
+    <h2>A venir</h2>
   </Page>
 </template>
 

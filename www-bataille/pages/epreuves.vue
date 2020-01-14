@@ -1,6 +1,6 @@
 <template>
   <Page title="Epreuves" icon="mdi-trophy">
-    A venir
+    <h2>A venir</h2>
   </Page>
 </template>
 

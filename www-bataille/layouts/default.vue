@@ -33,6 +33,8 @@ h1, h2, h3
   font-family: 'Jockey One', sans-serif
   padding-top: 10px
   padding-bottom: 10px
+h1
+  text-transform: uppercase
 
 @media (min-width: 1904px)
   .container
@@ -47,6 +49,4 @@ h1
   color: $mytheme-color-brownish
 h2
   margin-bottom: 10px
-</style>
-
 </style>

@@ -1,6 +1,10 @@
 <template>
-  <Page title="Epreuves" icon="mdi-trophy">
-    A venir
+  <Page title="Documentation" icon="mdi-book">
+    <p>
+      <h3>
+        <nuxt-link to="/doc/setup">Setup</nuxt-link>
+      </h3>
+    </p>
   </Page>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <Page title="Epreuves" icon="mdi-trophy">
-    A venir
+  <Page title="Setup son environnement de developpement" icon="mdi-tools">
+    <p>A venir !</p>
   </Page>
 </template>
 

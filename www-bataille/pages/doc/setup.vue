@@ -35,7 +35,7 @@
     </h4>
     <p>
       Outil "EDA" de conception de circuits electroniques.<br/>
-      Vous permetra de consulter les sources du schéma electronique et du circuit imprimé.
+      Vous permettra de consulter les sources du schéma electronique et du circuit imprimé.
     </p>
   </Page>
 </template>

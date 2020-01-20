@@ -4,6 +4,9 @@
       <nuxt-link to="/doc/setup">Setup son environnement de developpement</nuxt-link>
     </h2>
     <h3>
+      Cheatsheet Openscad: <a href=" https://www.openscad.org/cheatsheet/" target="_blank">  https://www.openscad.org/cheatsheet/</a>
+    </h3>
+    <h3>
       Reference Arduino: <a href="https://www.arduino.cc/reference/en/" target="_blank"> https://www.arduino.cc/reference/en/</a>
     </h3>
     <h3>

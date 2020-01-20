@@ -12,6 +12,9 @@
     <h3>
       Documentation lib Fastled: <a href="https://github.com/FastLED/FastLED/wiki/Overview" target="_blank"> https://github.com/FastLED/FastLED/wiki/Overview</a>
     </h3>
+     <h3>
+      Documentation lib ESPAsyncWebServer: <a href="https://github.com/me-no-dev/ESPAsyncWebServer" target="_blank"> https://github.com/me-no-dev/ESPAsyncWebServer</a>
+    </h3>
   </Page>
 </template>
 

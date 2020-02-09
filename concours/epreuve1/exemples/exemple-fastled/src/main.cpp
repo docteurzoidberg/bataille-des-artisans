@@ -1,8 +1,10 @@
+#include <Arduino.h>
+#include <SPI.h>
 #include <FastLED.h>
 
 #define LED_PIN     27
 #define COLOR_ORDER GRB
-#define CHIPSET     WS2811
+#define CHIPSET     WS2812B
 #define NUM_LEDS    64
 
 #define BRIGHTNESS  20
@@ -11,8 +13,6 @@
 bool gReverseDirection = false;
 
 CRGB leds[NUM_LEDS];
-
-
 
 // Fire2012 by Mark Kriegsman, July 2012
 // as part of "Five Elements" shown here: http://youtu.be/knWiGsmgycY
@@ -90,7 +90,7 @@ void Fire2012()
 void setup() {
   delay(3000); // sanity delay
   FastLED.addLeds<CHIPSET, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
-  FastLED.setBrightness( BRIGHTNESS );
+  FastLED.setBrightness(BRIGHTNESS);
 }
 
 void loop()
